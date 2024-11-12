@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: flex-start; /* Aligns items to the left */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0b1d26; /* Nighttime forest color */
+    overflow: hidden;
+}
+
+#gameContainer {
+    position: relative;
+    margin-left: 350px; /* Adjust this value to shift the game further to the right */
+}
+
+#gameCanvas {
+    border: 2px solid #ffffff;
+}
+
+#instructions, #feedback, #timer, #accuracy {
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+}
+
+#instructions {
+    top: 10px;
+}
+
+#feedback {
+    top: 50px;
+}
+
+#timer {
+    top: 90px;
+}
+
+#accuracy {
+    top: 130px;
+}
